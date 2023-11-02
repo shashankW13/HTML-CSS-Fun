@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+        <style>
+
+            .menu-flex {
+                display: flex;
+                width: 250px;
+                flex-direction: column;
+                border-radius: 5px;
+                padding: 6px 12px 0 12px;   
+                box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+            }
+
+            .section-flex {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                margin-bottom: 12px;
+                align-items: center;
+            }
+
+            .section-flex:last-of-type {
+                margin-bottom: 6px;
+            }
+
+            .menu-text, .notifications {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .notifications {
+                font-weight: bold;
+                color: white;
+                background-color: rgb(0, 123, 255);
+                display: flex;
+                padding: 3px 10px 3px 10px;
+                border-radius: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="menu-flex">
+            <div class="section-flex">
+                <div class="menu-text">
+                    Home
+                </div>
+    
+                <div class="notifications">
+                    14
+                </div>
+            </div>
+
+            <div class="section-flex">
+                <div class="menu-text">
+                    Notifications
+                </div>
+    
+                <div class="notifications">
+                    3
+                </div>
+            </div>
+
+            <div class="section-flex">
+                <div class="menu-text">
+                    Messages
+                </div>
+    
+                <div class="notifications">
+                    5
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

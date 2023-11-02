@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search Box</title>
+
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .header-flex {
+                display: flex;
+                flex-direction: row;
+                background-color: rgb(126, 84, 186);
+                justify-content: space-between;
+                height: 55px;
+                align-items: center;
+            }
+
+            .left-section {
+                color: white;
+                font-weight: bold;
+            }
+
+            .middle-section {
+                flex: 1;
+                max-width: 500px;
+                margin-left: 50px;
+                margin-right: 150px;
+            }
+
+            .text-box {
+                width: 375px;
+                padding: 6px 17px 6px 17px;
+                border: none;
+                border-radius: 15px;
+                
+            }
+            
+            .right-section {
+                width: 100px;
+            }
+
+            .download-button {
+                padding: 5px 9px 5px 9px;
+                border-color: white;
+                background-color: rgb(126, 84, 186);
+                border-style: solid;
+                border-width: 1.5px;
+                color: white;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header-flex">
+            <div class="left-section">
+                Home
+            </div>
+
+            <div class="middle-section">
+                <input type="text" class="text-box" placeholder="Search">
+            </div>
+                
+            <div class="right-section">
+                <button class="download-button">
+                    Download
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
