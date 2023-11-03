@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gmail</title>
+        <style>
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+            }
+
+            .inbox-flex {
+                display: flex;
+                flex-direction: column;
+                width: 30%;
+                height: 35%;
+                padding: 10px 15px 10px 15px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+                border-radius: 3px;
+                row-gap: 15px;
+            }
+
+            .inbox-text, .time {
+                color: gray;
+                font-size: 13px;
+            }
+
+            .mail-flex {
+                display: flex;
+                width: 100%;
+                flex: 1;
+                align-items: center;
+            }
+
+            .profile-picture {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+
+            .mail-info {
+                display: flex;
+                flex-direction: column;
+                row-gap: 3px;
+            }
+
+            .mail-name-flex {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .mail-name {
+                font-weight: bold;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="inbox-flex">
+            <div>
+                <p class="inbox-text">
+                    ALL INBOXES
+                </p>
+            </div>
+
+            <div class="mail-flex">
+                <div class="profile-flex">
+                    <img src="https://sarahscoop.com/wp-content/uploads/2021/10/itachi-uchiha.jpg" 
+                            alt="itachi"
+                            class="profile-picture"
+                            >
+                </div>
+
+                <div class="mail-info">
+                    <div class="mail-name-flex">
+                        <p class="mail-name">
+                            Chewy Promotions
+                        </p>
+
+                        <p class="time">
+                            4:58 PM
+                        </p>
+                    </div>
+                    
+                    <p style="font-size: 14px; font-weight: bold;">
+                        Biggest sales of the year!
+                    </p>
+
+                    <p style="font-size: 14px; color: gray;">
+                        Hey There! We're writing to tell you about our...
+                    </p>
+                </div>  
+            </div>
+
+            <div class="mail-flex">
+                <div class="profile-flex">
+                    <img src="https://wallpapers.com/images/hd/naruto-profile-pictures-a3nziz5klyojx6mb.jpg" 
+                            alt="itachi"
+                            class="profile-picture"
+                            >
+                </div>
+
+                <div class="mail-info">
+                    <div class="mail-name-flex">
+                        <p class="mail-name">
+                            Netflix
+                        </p>
+
+                        <p class="time">
+                            12:32 PM
+                        </p>
+                    </div>
+                    
+                    <p style="font-size: 14px; font-weight: bold;">
+                        Here's what's coming soon to Netflix
+                    </p>
+
+                    <p style="font-size: 14px; color: gray;">
+                        Brand new moviews and shows, old favorites...
+                    </p>
+                </div>  
+            </div>
+
+            <div class="mail-flex">
+                <div class="profile-flex">
+                    <img src="https://i.pinimg.com/1200x/3f/f3/84/3ff3847f6487e15456dcf52d2f3dcbfe.jpg" 
+                            alt="itachi"
+                            class="profile-picture"
+                            >
+                </div>
+
+                <div class="mail-info">
+                    <div class="mail-name-flex">
+                        <p class="mail-name">
+                            Best Buy
+                        </p>
+
+                        <p class="time">
+                            4:58 PM
+                        </p>
+                    </div>
+                    
+                    <p style="font-size: 14px; font-weight: bold;">
+                        You Best Buy eReceipt
+                    </p>
+
+                    <p style="font-size: 14px; color: gray;">
+                        Thank you for shopping at Best Buy, here is...
+                    </p>
+                </div>  
+            </div>
+        </div>
+    </body>
+</html>
