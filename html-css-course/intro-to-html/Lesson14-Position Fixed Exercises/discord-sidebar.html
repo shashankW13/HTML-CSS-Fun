@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Discord</title>
+    </head>
+    <style>
+        body {
+            height: 3000px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .discord-profile-sidebar {
+            background-color: rgb(42, 42, 42);
+            padding: 18px 8px 18px 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 80px;
+            row-gap: 5px;
+        }
+
+        .profile-picture {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+        .discord-info-sidebar {
+            background-color: rgb(56, 56, 56);
+            padding: 17px 18px 17px 18px;
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 95px;
+            width: 250px;
+            row-gap: 14px;
+        }
+
+        .info-header {
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .channels {
+            color: gray;
+        }
+    </style>
+    <body>
+        <div class="discord-profile-sidebar">
+            <div>
+                <img src="https://sarahscoop.com/wp-content/uploads/2021/10/itachi-uchiha.jpg" 
+                        alt="Itachi"
+                        class="profile-picture">
+            </div>
+
+            <div>
+                <img src="https://wallpapers.com/images/hd/naruto-profile-pictures-a3nziz5klyojx6mb.jpg" 
+                        alt="Naruto"
+                        class="profile-picture">
+            </div>
+
+            <div>
+                <img src="https://i.pinimg.com/1200x/3f/f3/84/3ff3847f6487e15456dcf52d2f3dcbfe.jpg" 
+                        alt="Itadori"
+                        class="profile-picture">
+            </div>
+        </div>
+
+        <div class="discord-info-sidebar">
+            <div class="info-header">
+                <div>
+                    INFO
+                </div>
+
+                <div style="
+                    font-size: 28px;
+                    color: rgb(148, 148, 148);
+                    cursor: pointer;
+                    ">
+                    +
+                </div>
+            </div>
+            
+            <div class="channels">
+                # new-videos
+            </div>
+
+            <div class="channels">
+                # updates
+            </div>
+
+            <div class="channels">
+                # faq
+            </div>
+        </div>
+    </body>
+</html>

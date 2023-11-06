@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Facebook</title>
+    </head>
+    <style>
+        p{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header, .profile-flex, .button-flex{
+            display: flex;
+            align-items: center;
+        }
+
+        .header {
+            justify-content: space-between;
+            padding: 10px 10px 10px 10px;
+            background-color: rgb(233, 250, 255);
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+        }
+
+        .profile-flex {
+            margin-left: 70px;
+            column-gap: 10px;
+        }
+
+        .profile-picture {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+
+        .button-flex {
+            margin-right: 70px;
+            column-gap: 10px;
+        }
+    </style>
+    <body>
+        <div class="header">
+            <div class="profile-flex">
+                <img src="https://sarahscoop.com/wp-content/uploads/2021/10/itachi-uchiha.jpg"
+                     alt=""
+                     class="profile-picture">
+
+                <p style="font-weight: bold;">
+                    Itachi
+                </p>
+            </div>
+
+            <div class="button-flex">
+                <button style="
+                    padding: 7px 9px 7px 9px;
+                    border-radius: 4px;
+                    border: none;
+                    color: white;
+                    background-color: rgb(36, 133, 218);
+                    font-size: 13px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    ">
+                    Add Friend
+                </button>
+
+                <button style="
+                    padding: 7px 12px 7px 12px;
+                    border-radius: 4px;
+                    border: none;
+                    color: black;
+                    background-color: rgb(227, 227, 227);
+                    font-size: 13px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    ">
+                    Message
+                </button>
+            </div>
+            
+        </div>
+    </body>
+</html>
