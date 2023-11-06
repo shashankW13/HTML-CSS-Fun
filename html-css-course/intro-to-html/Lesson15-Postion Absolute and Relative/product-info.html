@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product - Tshirt</title>
+    </head>
+    <style>
+        body {
+            font-family: Roboto, Arial;
+        }
+
+        .product-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .product {
+            height: 300px;
+            width: 300px;
+        }
+
+        .discount {
+            position: absolute;
+            background-color: black;
+            color: white;
+            font-size: 13px;
+            padding: 6px 10px 6px 10px;
+            top: 5px;
+            right: 0;
+        }
+
+        .add-to-cart-overlay {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            background-color: rgba(255, 255, 255, 0.7);
+            bottom: 0;
+            left: 0;
+            right: 0;    
+        }
+
+        .add-to-cart {
+            border: 1.5px black solid;
+            padding: 10px 15px 10px 15px;
+            cursor: pointer;
+        }
+    </style>
+    <body>
+        <div class="product-container">
+            <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/7/q/w/s-all-rbc-white-one-nb-nicky-boy-original-imagjz5bgpmhcaea.jpeg?q=70" 
+                 alt=""
+                 class="product">
+            
+            <div class="discount">
+                20% OFF
+            </div>
+
+            <div class="add-to-cart-overlay">
+                <button class="add-to-cart">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
